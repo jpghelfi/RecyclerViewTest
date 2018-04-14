@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/image_view"
+        android:src="@drawable/compu"
+        android:background="@color/colorAccent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/textViewNombreCompu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computador ASUS"
+        android:textSize="15dp"
+        android:textAlignment="viewStart"
+        android:layout_above="@+id/textViewPrecio"
+         />
+
+    <TextView
+        android:id="@+id/textViewPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$ 8,000"
+        android:textSize="15dp"
+        android:textAlignment="viewStart"
+        android:layout_alignBottom="@+id/image_view"
+         />
+
+
+
+
+</RelativeLayout>
